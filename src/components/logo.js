@@ -5,7 +5,7 @@ export const Logo = styled((props) => {
   const { variant, ...other } = props;
 
   const color = variant === 'light' ? '#C1C4D6' : '#5048E5';
-
+return <img src="/static/logo.svg"></img>  
   return (
     <svg
       width="42"

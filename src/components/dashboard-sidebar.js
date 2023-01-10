@@ -87,7 +87,8 @@ export const DashboardSidebar = (props) => {
         sx={{
           display: 'flex',
           flexDirection: 'column',
-          height: '100%'
+          height: '100%',
+          backgroundColor:'white'
         }}
       >
         <div>
@@ -106,7 +107,7 @@ export const DashboardSidebar = (props) => {
               </a>
             </NextLink>
           </Box>
-          <Box sx={{ px: 2 }}>
+          {/* <Box sx={{ px: 2 }}>
             <Box
               sx={{
                 alignItems: 'center',
@@ -143,12 +144,12 @@ export const DashboardSidebar = (props) => {
                 }}
               />
             </Box>
-          </Box>
+          </Box> */}
         </div>
         <Divider
           sx={{
             borderColor: '#2D3748',
-            my: 3
+            my: 2
           }}
         />
         <Box sx={{ flexGrow: 1 }}>
@@ -161,8 +162,8 @@ export const DashboardSidebar = (props) => {
             />
           ))}
         </Box>
-        <Divider sx={{ borderColor: '#2D3748' }} />
-        <Box
+        {/* <Divider sx={{ borderColor: '#2D3748' }} /> */}
+        {/* <Box
           sx={{
             px: 2,
             py: 3
@@ -211,7 +212,7 @@ export const DashboardSidebar = (props) => {
               Pro Live Preview
             </Button>
           </NextLink>
-        </Box>
+        </Box> */}
       </Box>
     </>
   );
